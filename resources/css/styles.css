@@ -257,3 +257,38 @@ cite img{
     vertical-align: middle;
     margin-right: 5px;
 }
+/* ----------------- SPONSOR------------------ */
+.sponsors-section{
+    background-color: #eeeeee;
+}
+.sponsors-section h2{
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.sponsors-showcase{
+    margin-left: 0%;
+}
+.sponsors-showcase li{
+    list-style: none;
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.logo-sponsor{
+    height: 140px;
+    cursor: pointer;
+    transition: all .3s;
+
+}
+.sponsors-showcase li .logo-sponsor:hover,
+.sponsors-showcase li .logo-sponsor:active{
+    transform: scale(1.1);
+}
+figcaption{
+    color: #265077;
+    font-weight: 900;
+    font-size: 120%;
+    cursor: pointer;
+}
