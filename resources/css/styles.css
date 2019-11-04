@@ -95,6 +95,11 @@ h2::after{
     margin-bottom: 40px;
     line-height: 135%;
 }
+.small-icon{
+    color: #365c80;
+    font-size: 130%;
+    margin-right: 10px;
+}
 /* ----------------HAEDER---------------- */
 header{
     background-image:linear-gradient(45deg, rgba(2,33,64, 0.8) 55%,rgba(45,95,93, 0.85) ), url(../img/background4.jpeg);
@@ -176,4 +181,38 @@ header{
 .about-picture:active .picture-title{
     transform: translate(-60%,-50%);
     opacity: 1;
+}
+/* -------------------------- PRODUCT SECTION------------ */
+.products-section{
+    background-color: #eeeeee;
+}
+.products-section h2
+{
+    margin-bottom: 50px;
+}
+.products-box{
+    background-color: #eeefff;
+    box-shadow: 3px 5px 10px #e0e0e0;
+    width: 90%;
+    height: 350px;
+}
+.products-price
+{
+    color: #265077;
+    font-size: 250%;
+    font-weight: 300;
+    text-align: center;
+}
+.products-price span{
+    font-size: 80%;
+    font-weight: 300;
+}
+.products-box ul li{
+    margin-left:20%;
+    list-style: none;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.products-box .btn{
+    margin-left: 20%;
 }
