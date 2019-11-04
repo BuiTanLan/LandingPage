@@ -11,6 +11,23 @@ html{
     text-rendering: optimizeLegibility;
 }
 /* ----------------REUSABLE--------------- */
+.btn
+{
+    text-decoration: none;
+    color: white;
+    background-color: #e67e22;
+    padding: 15px 30px;
+    border-radius: 20px;
+    margin: 0 5px;
+    width: 190px;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s;
+}
+.btn:hover,
+.btn:active{
+    background-color: #d35400;
+}
 .clearfix::after{
     content: "";
     display: table;
